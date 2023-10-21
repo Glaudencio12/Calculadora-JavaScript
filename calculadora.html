@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <fieldset>
+        <h1>Calculadora numérica</h1>
+        <h2>Digite os números para o cálculo:</h2>
+        <label for="n1">Primeiro número:</label>
+        <input type="number" name="n1" id="n1"> <br><br>
+        <label for="n2">Segundo número:</label>
+        <input type="number" name="n2" id="n2"><br><br>
+        <div id="res">Resultado do cálculo</div><br>
+
+        <input type="button" value="Somar" id="soma" onclick="somar()">
+        <input type="button" value="Subtrair" id="diminuir" onclick="diminuir()">
+        <input type="button" value="Multiplicar" id="multiplicar" id="multiplicar" onclick="multiplicar()">
+        <input type="button" value="Dividir" id="dividir" onclick="dividir()">
+    </fieldset>
+    <script src="calculadora.js"></script>
+</body>
+</html>
